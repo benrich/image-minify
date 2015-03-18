@@ -1,0 +1,25 @@
+{
+  "name": "image-minify",
+  "version": "1.0.0",
+  "description": "Minify Playabl images",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ben Rich",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^3.8.11"
+  },
+  "devDependencies": {
+    "gulp-cached": "^1.0.4",
+    "gulp-changed": "^1.2.1",
+    "gulp-convert-encoding": "0.0.3",
+    "gulp-debug": "^2.0.1",
+    "gulp-htmlmin": "^1.1.1",
+    "gulp-imagemin": "^2.2.1",
+    "gulp-util": "^3.0.4",
+    "imagemin-pngquant": "^4.0.0",
+    "minimist": "^1.1.1"
+  }
+}
