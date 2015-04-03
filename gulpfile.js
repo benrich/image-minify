@@ -42,7 +42,7 @@ var paths = minimist(
 		string: 'target',
 		default: {
 			images: 'images/',
-			target: 'images/'
+			target: 'images_target/'
 		}
 	}
 )
